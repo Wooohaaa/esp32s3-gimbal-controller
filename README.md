@@ -4,6 +4,8 @@ ESP32S3 云台控制固件：接收 RK3566 发送的目标坐标帧，按双轴�
 
 This repository contains an independently implemented ESP32S3 controller for the RK3566 tracker. The serial frame is compatible with the documented 7-byte interface; the protocol parser and PID controller here are original implementations.
 
+RK3566 vision companion: [Wooohaaa/rk3566-vision-tracker](https://github.com/Wooohaaa/rk3566-vision-tracker).
+
 ## 硬件与接线
 
 | ESP32S3 | 连接 | RK3566 / 外设 |
